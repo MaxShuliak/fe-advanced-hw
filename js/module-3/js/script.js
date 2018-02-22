@@ -1,8 +1,10 @@
-const alphabet = ["qwertyuiop[]","asdfghjkl;'","zxcvbnm,./"];
+const alphabet = "qwertyuiop[]asdfghjkl;'zxcvbnm,./";
 
-const hello = alphabet[0];
-const javascript = alphabet[1];
-const trainer = alphabet[2];
+const upperRow = alphabet.slice(0,12).split("");
+const midRow = alphabet.slice(12,23).split("");
+const lowRow = alphabet.slice(23,33).split("");
 
-const message = `Перший елемент масиву ${hello},\nДругий елемент масиву ${javascript},\nТретій елемент масиву ${trainer}`;
-console.log(message);
+const keyboard = [upperRow,midRow,lowRow];
+console.log(midRow[5]+upperRow[2]+midRow[8]+midRow[8]+upperRow[8]);
+console.log(midRow[6]+midRow[0]+lowRow[3]+midRow[0]+midRow[1]+lowRow[2]+upperRow[3]+upperRow[7]+upperRow[9]+upperRow[4]);
+console.log(upperRow[4]+upperRow[3]+midRow[0]+upperRow[7]+lowRow[5]+upperRow[2]+upperRow[3]);
