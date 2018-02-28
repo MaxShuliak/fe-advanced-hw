@@ -17,20 +17,17 @@ addKeyboardLayout( keyboard );
 
 // const msg = +prompt("введіть число 1-3");
 //
-//
 // function getRandCharInRow(row){
 //   row = "";
-//   const upRow = "qwertyuiop[]";
-//   const midRow = "asdfghjkl;'";
-//   const lowRow = "zxcvbnm,./";
+//   const alphabet = ["qwertyuiop[]","asdfghjkl;'","zxcvbnm,./"]
 //
 //
 //     if (msg === 1){
-//       row = upRow.charAt(Math.floor(Math.random()*upRow.length));
+//       row = alphabet[0].charAt(Math.floor(Math.random()*alphabet[0].length));
 //     } else if (msg === 2){
-//       row = midRow.charAt(Math.floor(Math.random()*midRow.length));
+//       row = alphabet[1].charAt(Math.floor(Math.random()*alphabet[1].length));
 //     } else if (msg === 3){
-//       row = lowRow.charAt(Math.floor(Math.random()*lowRow.length));
+//       row = alphabet[2].charAt(Math.floor(Math.random()*alphabet[2].length));
 //     } else {
 //       console.log("error");
 //     }
