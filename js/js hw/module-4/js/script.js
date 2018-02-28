@@ -1,17 +1,17 @@
 //Task1
 
-const keyboard = "qwertyuiop[]asdfghjkl;'zxcvbnm,./";
-
-  function addKeyboardLayout( alphabet ){
-    const upperRow =keyboard.slice(0,12).split(" ");
-    const midRow =keyboard.slice(12,23).split(" ");
-    const lowRow =keyboard.slice(23,33).split(" ");
-
-    alphabet = [upperRow,midRow,lowRow];
-    console.log(alphabet);
-  }
-
-addKeyboardLayout( keyboard );
+// const keyboard = "qwertyuiop[]asdfghjkl;'zxcvbnm,./";
+//
+//   function addKeyboardLayout( alphabet ){
+//     const upperRow =keyboard.slice(0,12).split(" ");
+//     const midRow =keyboard.slice(12,23).split(" ");
+//     const lowRow =keyboard.slice(23,33).split(" ");
+//
+//     alphabet = [upperRow,midRow,lowRow];
+//     console.log(alphabet);
+//   }
+//
+// addKeyboardLayout( keyboard );
 
 //Task2
 
@@ -36,7 +36,7 @@ addKeyboardLayout( keyboard );
 // }
 // console.log(getRandCharInRow());
 //Task3
-/*
+
 
 function getRandCharInAlph() {
 	let s;
@@ -48,4 +48,3 @@ function getRandCharInAlph() {
 }
 
 console.log(getRandCharInAlph());
-*/
