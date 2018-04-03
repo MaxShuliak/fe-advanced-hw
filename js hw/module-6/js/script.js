@@ -45,14 +45,16 @@ const keyTrainer = {
           }
     }
 
-    this.userErrors === 0
-        ? alert('Вітання!')
-        : alert(`Ви зробили ${this.userErrors} помилку(и)`);
+    if (this.userErrors === 0){
+      alert('Вітання!');
+    }else {
+      alert(`Ви зробили ${this.userErrors} помилку(и)`);
+    }
   },
+
 
   run () {
     this.setCharCount();
-    if (!this.charCount) return;
     this.createTask ();
     this.startTask ();
   }
